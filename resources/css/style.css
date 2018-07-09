@@ -7,7 +7,7 @@ html {
   box-sizing: border-box;
 }
 
-nav, ul, li, div, header, img {
+section, footer, h1, h2, h3, h4, span, nav, ul, li, div, header, img {
   border: 1px solid black;
 }
 
