@@ -3,20 +3,32 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./resources/css/reset.css" type="test/css" ref="stylsheet">
-    <link href="./resources/css/style.css" type="test/css" ref="stylsheet">
+    <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
+    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
     <title>Capstone Academy</title>
   </head>
   <body>
     <!--Fixed Header Bar at top-->
     <header>
-      <img src="./resources/images/ic-logo.svg" alt="College Logo Icon">
-      <span><strong>COLMAR</strong>ACADEMY</span>
-      <ul class="desktop">
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
+      <div class="desktop-logo">
+        <img src="./resources/images/ic-logo.svg" alt="College Logo Icon">
+        <span><strong>COLMAR</strong>ACADEMY</span>
+      </div>
+      <nav class="desktop-bar">
+        <ul>
+          <li>On Campus</li>
+          <li>Online for companies</li>
+          <li>Sign in</li>
+        </ul>
+      </nav>
+      <nav class="mobile-bar">
+        <ul>
+          <li><img src="./resources/images/ic-logo.svg" alt="College Logo Icon"></li>
+          <li><img src="./resources/images/ic-on-campus.svg" alt=""></li>
+          <li><img src="./resources/images/ic-online.svg" alt=""></li>
+          <li><img src="./resources/images/ic-login.svg" alt=""></li>
+        </ul>
+      </nav>
     </header>
 
     <!--Main section incorporating all four blocks for flexbox-->
