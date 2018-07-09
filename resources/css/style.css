@@ -1,5 +1,7 @@
 /*Universal styles*/
-
+html {
+  font-size: 16px;
+}
 
 /*Fixed Header Bar at top*/
 
