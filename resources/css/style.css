@@ -28,15 +28,22 @@ use montserrat for the descriptions and use sans-serif as backup*/
 /*Universal styles*/
 html {
   font-size: 16px;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 * {
-  box-sizing: border-box;
+  font-size: 1rem;
 }
+
 
 h1, h2, h3, .colmar {
   font-family: "Roboto", "Helvetica", sans-serif;
   font-weight: 700;
+  color: #393C3D
 }
 
 .academy, .desktop-bar li {
@@ -46,6 +53,11 @@ h1, h2, h3, .colmar {
 
 p, .copyright-text, .copyright-right li {
   font-family: "Montserrat", "Garamound", sans-serif;
+  color: #636A6B;
+}
+
+.academy {
+  color: #636A6B;
 }
 
 section, footer, h1, h2, h3, h4, span, nav, ul, li, div, header, img {
@@ -58,6 +70,13 @@ header {
   height: 4rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
 }
 
 nav li {
@@ -71,6 +90,24 @@ nav li {
 .desktop-logo, .desktop-bar {
   display: flex;
   align-items: center;
+}
+
+.desktop-logo {
+  height: 2rem;
+  font-size: 1.5rem;
+}
+
+.nav-spacing {
+  margin-right: 1rem;
+}
+
+.desktop-bar {
+  font-size: 1rem;
+}
+
+main {
+  position: relative;
+  top: 4rem;
 }
 
 /*Main section incorporating all four blocks for flexbox*/
