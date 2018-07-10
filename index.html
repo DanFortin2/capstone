@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -51,10 +51,10 @@
       <!--Large Block 2 "it doesn't hurt to practice"-->
       <section class="practice">
         <div class="practice-large-block">
-          <div>
+          <div class="practice-banner">
             <img src="./resources/images/information-main.jpg" alt="A man reading a book outside">
           </div>
-          <div>
+          <div class="practice-desc">
             <h2>It Doesn't hurt to keep practicing</h2>
             <p>"Curabitur vitae libero in ipsum prttitor consequat. Aliguam et commodo lectus
             nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex.
@@ -114,36 +114,53 @@
           </div>
           <div class="start-block">
             <div class="start-image">
-            <img src="./resources/images/course-computer-art.jpg" alt="image of a phone">
-            <h3>Computer art</h3>
-            <p>COURSES</p>
-            <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+              <img src="./resources/images/course-computer-art.jpg" alt="image of a phone">
+            </div>
+            <div class="start-text">
+              <h3>Computer art</h3>
+              <p>COURSES</p>
+              <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+            </div>
           </div>
           <div class="start-block">
-            <div class="start-image"> <!--**started adding image divs and
-              text divs for this section-->
-            <img src="./resources/images/course-design.jpg" alt="image of a camera">
-            <h3>Design</h3>
-            <p>COURSES</p>
-            <p>User Experience Design, User Research, Visual Design</p>
+            <div class="start-image">
+              <img src="./resources/images/course-design.jpg" alt="image of a camera">
+            </div>
+            <div class="start-text">
+              <h3>Design</h3>
+              <p>COURSES</p>
+              <p>User Experience Design, User Research, Visual Design</p>
+            </div>
           </div>
           <div class="start-block">
-            <img src="./resources/images/course-data.jpg" alt="image of a laptop with a graph being displayed">
-            <h3>Data</h3>
-            <p>COURSES</p>
-            <p>Data Science, Big Data, SQL, Data Visualization</p>
+            <div  class="start-image">
+              <img src="./resources/images/course-data.jpg" alt="image of a laptop with a graph being displayed">
+            </div>
+            <div class="start-text">
+              <h3>Data</h3>
+              <p>COURSES</p>
+              <p>Data Science, Big Data, SQL, Data Visualization</p>
+            </div>
           </div>
           <div class="start-block">
-            <img src="./resources/images/course-business.jpg" alt="image of a chess board">
-            <h3>Business</h3>
-            <p>COURSES</p>
-            <p>Product Development, Business Development, Startup</p>
+            <div class="start-image">
+              <img src="./resources/images/course-business.jpg" alt="image of a chess board">
+            </div>
+            <div class="start-text">
+              <h3>Business</h3>
+              <p>COURSES</p>
+              <p>Product Development, Business Development, Startup</p>
+            </div>
           </div>
           <div class="start-block">
-            <img src="./resources/images/course-marketing.jpg" alt="image of a smart watch">
-            <h3>Marketing</h3>
-            <p>COURSES</p>
-            <p>Analytics, Content Marketing, Mobile Marketing</p>
+            <div class="start-image">
+              <img src="./resources/images/course-marketing.jpg" alt="image of a smart watch">
+            </div>
+            <div class="start-text">
+              <h3>Marketing</h3>
+              <p>COURSES</p>
+              <p>Analytics, Content Marketing, Mobile Marketing</p>
+            </div>
           </div>
         </div>
       </section>
@@ -151,28 +168,32 @@
       <!--Large Block 4 "Thesis Exhibit"-->
       <section class="thesis">
         <h2>Thesis exhibit</h2>
-        <div class="thesis-video">
-          <video src="./resources/videos/thesis.mp4" height="auto" width="60%" controls>Video not supported</video>
-          <h3>Reimagine urban</h3>
-          <p>"Curabitur vitae libero in ipsum portitlor consequat. Aliguam et commodo lectus,
+        <div class="thesis-block">
+          <div class="thesis-video">
+            <video src="./resources/videos/thesis.mp4" height="240" width="320" controls>Video not supported</video>
+          </div>
+          <div class="thesis-text">
+            <h3>Reimagine urban</h3>
+            <p>"Curabitur vitae libero in ipsum portitlor consequat. Aliguam et commodo lectus,
             nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget
             magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+          </div>
         </div>
         <div class="thesis-exhibit">
           <div class="exhibit-block">
-            <div>
+            <div class="exhibit-image">
               <img src="./resources/images/thesis-fisma.jpg" alt="image of a paper with a prototype on it">
             </div>
-            <div>
+            <div class="exhibit-text">
               <h3>Fisma: Design and Prototype</h3>
               <p>Designer showcase of new prototype product</p>
             </div>
           </div>
           <div class="exhibit-block">
-            <div>
+            <div class="exhibit-image">
               <img src="./resources/images/thesis-now-and-then.jpg" alt="image of a skyscraper">
             </div>
-            <div>
+            <div class="exhibit-text">
               <h3>Now and then</h3>
               <p>Research study about New York</p>
             </div>
@@ -183,11 +204,11 @@
 
     <!--Copyright footer-->
     <footer class="copyright">
-      <div>
+      <div class="copyright-left">
         <span>&#169;2016 Colmar Academy. All rights reserved</span>
       </div>
-      <div>
-        <ul class="desktop-copyright">
+      <div class="copyright-right">
+        <ul>
           <li>Terms</li>
           <li>Privacy</li>
         </ul>
