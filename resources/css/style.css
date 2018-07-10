@@ -26,6 +26,7 @@
 use montserrat for the descriptions and use sans-serif as backup*/
 
 /*Universal styles*/
+
 html {
   font-size: 16px;
   box-sizing: border-box;
@@ -53,11 +54,11 @@ h1, h2, h3, .colmar {
 
 p, .copyright-text, .copyright-right li {
   font-family: "Montserrat", "Garamound", sans-serif;
-  color: #636A6B;
+  color: #C4C3C1;
 }
 
 .academy {
-  color: #636A6B;
+  color: #ADADAA;
 }
 
 section, footer, h1, h2, h3, h4, span, nav, ul, li, div, header, img {
@@ -112,6 +113,25 @@ main {
 
 /*Main section incorporating all four blocks for flexbox*/
 
+.learn {
+  background-color: #C4C3C1;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.learn-banner {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.learn-text {
+  width: 40%;
+}
+
+.learn-banner img {
+  width: 100%;
+}
 
 /*Large Block 1 "learn something"*/
 
@@ -127,6 +147,9 @@ main {
 
 /*Copyright footer*/
 
-
+footer {
+  position: relative;
+  top: 4rem;
+}
 
 /*Media Querries for Mobile*/
