@@ -27,6 +27,11 @@ nav li {
   display: none;
 }
 
+.desktop-logo, .desktop-bar {
+  display: flex;
+  align-items: center;
+}
+
 /*Main section incorporating all four blocks for flexbox*/
 
 
