@@ -74,10 +74,6 @@ p, .copyright-text, .copyright-right li {
   color: #ADADAA;
 }
 
-section, footer, h1, h2, h3, h4, span, nav, ul, li, div, header, img {
-  border: 1px solid black;
-}
-
 /*Fixed Header Bar at top*/
 
 header {
@@ -256,10 +252,16 @@ main {
 
 .start-block {
   width: 33.33%;
+  background-color: white;
+  margin: 1rem 1rem;
 }
 
 .start-block img {
   width: 100%;
+}
+
+.start-text {
+  height: 10rem;
 }
 
 /*Large Block 4 "Thesis Exhibit"*/
