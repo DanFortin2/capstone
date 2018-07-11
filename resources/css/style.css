@@ -181,6 +181,7 @@ main {
   flex-direction: column;
   justify-content: center;
   padding-bottom: 2rem;
+  padding-top: 1rem;
 }
 
 .practice-banner img {
@@ -218,10 +219,20 @@ main {
   width: 100%;
 }
 
+.image-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1rem;
+}
 
+.image-text .top {
+  margin-top: 0.5rem;
+}
 
-
-
+.image-text a {
+  color: #5F99E8;
+}
 
 /*Large Block 2 "it doesn't hurt to practice"*/
 
