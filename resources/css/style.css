@@ -124,7 +124,7 @@ main {
   top: 4rem;
 }
 
-/*Main section incorporating all four blocks for flexbox*/
+/*Large Block 1 "learn something"*/
 
 .learn {
   background-color: #C4C3C1;
@@ -163,7 +163,7 @@ main {
   font-size: 1.5rem;
 }
 
-/*Large Block 1 "learn something"*/
+/*Large Block 2 "it doesn't hurt to practice"*/
 
 .practice {
   Display: flex;
@@ -234,11 +234,33 @@ main {
   color: #5F99E8;
 }
 
-/*Large Block 2 "it doesn't hurt to practice"*/
-
-
 /*Large Block 3 "Start Learning"*/
 
+.start {
+  padding: 2rem 4.5rem;
+  background-color: #C4C3C1;
+  text-align: center;
+  width: 100%;
+}
+
+.start-matrix {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.start-section {
+  display: flex;
+  width: 100%;
+}
+
+.start-block {
+  width: 33.33%;
+}
+
+.start-block img {
+  width: 100%;
+}
 
 /*Large Block 4 "Thesis Exhibit"*/
 
