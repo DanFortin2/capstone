@@ -36,10 +36,22 @@ html {
   box-sizing: inherit;
 }
 
-* {
-  font-size: 1rem;
+
+h1 {
+  font-size: 3rem;
 }
 
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+p {
+  font-size: 0.75rem;
+}
 
 h1, h2, h3, .colmar {
   font-family: "Roboto", "Helvetica", sans-serif;
@@ -116,7 +128,7 @@ main {
 .learn {
   background-color: #C4C3C1;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   width: 100%;
 }
 
@@ -131,6 +143,23 @@ main {
 
 .learn-banner img {
   width: 100%;
+}
+
+.learn-line {
+  width: 70%;
+  margin-bottom: 2.5rem;
+}
+
+.button {
+  width: 70%;
+  padding-top: 0.50rem;
+  padding-bottom: 0.50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: DarkSlateGrey;
+  font-size: 1.5rem;
 }
 
 /*Large Block 1 "learn something"*/
