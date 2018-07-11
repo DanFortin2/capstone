@@ -38,25 +38,25 @@ html {
 
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.3rem;
 }
 
 h2 {
-  font-size: 2.25rem;
+  font-size: 2.35rem;
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 1.85rem;
 }
 
 p {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
 }
 
 h1, h2, h3, .colmar {
   font-family: "Roboto", "Helvetica", sans-serif;
   font-weight: 700;
-  color: #393C3D
+  color: #393C3D;
 }
 
 .academy, .desktop-bar li {
@@ -134,7 +134,7 @@ main {
 
 .learn-banner {
   width: 60%;
-  margin: 2rem 1.5rem;
+  padding: 2rem 1.5rem;
 }
 
 .learn-text {
@@ -146,24 +146,61 @@ main {
 }
 
 .learn-line {
-  width: 70%;
+  width: 85%;
   margin-bottom: 2.5rem;
 }
 
 .button {
-  width: 70%;
+  width: 85%;
   padding-top: 0.50rem;
   padding-bottom: 0.50rem;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  background-color: DarkSlateGrey;
+  background-color: #393C3D;
   font-size: 1.5rem;
 }
 
 /*Large Block 1 "learn something"*/
 
+.practice {
+  Display: flex;
+  width: 100%;
+}
+
+.practice-large-block {
+  width: 60%;
+}
+
+.practice-small-block {
+  width: 40%;
+}
+
+.practice-banner img {
+  width: 100%;
+}
+
+.practice-pic {
+  width: 35%;
+}
+
+.image-text {
+  width: 65%;
+}
+
+.image-block img {
+  width: 100%;
+}
+
+.image-block {
+  display: flex;
+  padding: 1rem 1rem;
+}
+
+.practice-banner {
+  padding: 2rem 1.5rem;
+}
 
 /*Large Block 2 "it doesn't hurt to practice"*/
 
