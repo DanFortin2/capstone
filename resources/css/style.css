@@ -74,6 +74,10 @@ p, .copyright-text, .copyright-right li {
   color: #ADADAA;
 }
 
+.gray {
+  background-color: #ADADAA;
+}
+
 /*Fixed Header Bar at top*/
 
 header {
@@ -288,6 +292,64 @@ main {
 }
 
 /*Large Block 4 "Thesis Exhibit"*/
+
+.thesis {
+  padding-top: 2rem;
+}
+
+.thesis h2 {
+  text-align: center;
+}
+
+.thesis-matrix {
+  display: flex;
+}
+
+.thesis-block {
+  padding: 2rem 1.5rem;
+  width: 60%;
+}
+
+.thesis-text p {
+  margin-top: 0.5rem;
+}
+
+.thesis-block video {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.thesis-exhibit {
+  padding-top: 2rem;
+  width: 40%;
+}
+
+.exhibit-block {
+  display: flex;
+  width: 100%;
+  padding: 1rem 1rem;
+}
+
+.exhibit-image {
+  width: 35%;
+  margin-right: 1rem;
+}
+
+.exhibit-image img {
+  width: 100%;
+}
+
+.exhibit-text {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.exhibit-text p {
+  margin-top: 1rem;
+}
+
 
 
 /*Copyright footer*/
