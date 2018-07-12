@@ -239,6 +239,10 @@ main {
   width: 100%;
 }
 
+.start h2 {
+  margin-bottom: 1rem;
+}
+
 .start-matrix {
   display: flex;
   flex-direction: column;
@@ -261,7 +265,15 @@ main {
 }
 
 .start-text {
-  height: 10rem;
+  height: 12rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1.5rem;
+  text-align: left;
+}
+
+.start-text, p {
+  margin-top: 0.5rem;
 }
 
 /*Large Block 4 "Thesis Exhibit"*/
