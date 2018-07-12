@@ -60,12 +60,12 @@ h1, h2, h3, .colmar, a {
   color: #393C3D;
 }
 
-.academy, .desktop-bar li {
+.academy, .desktop-bar li  {
   font-family: "Roboto", "Helvetica", sans-serif;
   font-weight: 400;
 }
 
-p, .copyright-text, .copyright-right li {
+p, .copyright-text, .copyright-right li, .cp-text {
   font-family: "Montserrat", "Garamound", sans-serif;
   color: #5E5D5C;
 }
@@ -74,9 +74,10 @@ p, .copyright-text, .copyright-right li {
   color: #5E5D5C;
 }
 
+/*
 .gray {
   background-color: #DEDBD8;
-}
+}*/
 
 /*Fixed Header Bar at top*/
 
@@ -244,6 +245,12 @@ main {
 .image-block {
   display: flex;
   padding: 1rem 1rem;
+}
+
+.image-block:hover {
+  border-radius: 5px;
+  background-color: #DEDBD8;
+  color: white;
 }
 
 .practice-pic {
