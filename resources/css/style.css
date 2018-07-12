@@ -99,7 +99,9 @@ nav li {
 }
 
 nav a {
+  border-radius: 5px;
   padding: 0.1875rem 0.3125rem;
+  transition:  background-color 750ms linear;
 }
 
 nav a:hover {
@@ -178,6 +180,25 @@ main {
   width: 100%;
   text-align: center;
   color: white;
+}
+
+@media only screen and (max-width: 1190px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2.1rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 0.75rem;
+    line-height: 1.1rem;
+  }
 }
 
 /*Large Block 2 "it doesn't hurt to practice"*/
