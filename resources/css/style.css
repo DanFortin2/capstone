@@ -46,7 +46,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.85rem;
+  font-size: 1.55rem;
 }
 
 p {
@@ -67,15 +67,15 @@ h1, h2, h3, .colmar, a {
 
 p, .copyright-text, .copyright-right li {
   font-family: "Montserrat", "Garamound", sans-serif;
-  color: #C4C3C1;
+  color: #5E5D5C;
 }
 
 .academy {
-  color: #ADADAA;
+  color: #5E5D5C;
 }
 
 .gray {
-  background-color: #ADADAA;
+  background-color: #DEDBD8;
 }
 
 /*Fixed Header Bar at top*/
@@ -91,7 +91,7 @@ header {
   width: 100%;
   z-index: 1;
   background-color: white;
-  border-bottom: 1px solid #ADADAA;
+  border-bottom: 1px solid #DEDBD8;
 }
 
 nav li {
@@ -128,7 +128,7 @@ main {
 /*Large Block 1 "learn something"*/
 
 .learn {
-  background-color: #C4C3C1;
+  background-color: #DEDBD8;
   display: flex;
   align-items: center;
   width: 100%;
@@ -179,14 +179,14 @@ main {
 
 .practice-large-block {
   width: 60%;
-  border-right: 1px solid gray;
+  border-right: 1px solid #DEDBD8;
 }
 
 .practice-small-block {
   width: 40%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   padding-bottom: 2rem;
   padding-top: 1rem;
 }
@@ -202,6 +202,7 @@ main {
 .practice-desc {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .practice-desc h2 {
@@ -245,7 +246,7 @@ main {
 
 .start {
   padding: 2rem 4.5rem;
-  background-color: #C4C3C1;
+  background-color: #DEDBD8;
   text-align: center;
   width: 100%;
 }
@@ -364,6 +365,7 @@ main {
   height: 5rem;
   font-size: 0.75rem;
   padding-top: 1rem;
+  background-color: #DEDBD8;
 }
 
 .copyright-right li {
