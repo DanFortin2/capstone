@@ -354,9 +354,26 @@ main {
 
 /*Copyright footer*/
 
-footer {
+.copyright {
   position: relative;
   top: 4rem;
+  display: flex;
+  width: 100%;
+  border-top: 1px solid #ADADAA;
+  justify-content: space-between;
+  height: 5rem;
+  font-size: 0.75rem;
+  padding-top: 1rem;
 }
+
+.copyright-right li {
+  display: inline-block;
+  margin-right: 1.5rem;
+}
+
+.copyright-left {
+  margin-left: 1.5rem;
+}
+
 
 /*Media Querries for Mobile*/
