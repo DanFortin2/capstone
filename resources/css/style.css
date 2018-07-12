@@ -98,6 +98,16 @@ nav li {
   display: inline-block;
 }
 
+nav a {
+  padding: 0.1875rem 0.3125rem;
+}
+
+nav a:hover {
+  border-radius: 5px;
+  background-color: #393C3D;
+  color: white;
+}
+
 .mobile-bar {
   display: none;
 }
@@ -113,7 +123,7 @@ nav li {
 }
 
 .nav-spacing {
-  margin-right: 1rem;
+  margin-right: 0.375rem;
 }
 
 .desktop-bar {
@@ -360,7 +370,6 @@ main {
   top: 4rem;
   display: flex;
   width: 100%;
-  border-top: 1px solid #ADADAA;
   justify-content: space-between;
   height: 5rem;
   font-size: 0.75rem;
