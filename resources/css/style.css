@@ -54,7 +54,7 @@ p {
   line-height: 1.1rem;
 }
 
-h1, h2, h3, .colmar {
+h1, h2, h3, .colmar, a {
   font-family: "Roboto", "Helvetica", sans-serif;
   font-weight: 700;
   color: #393C3D;
@@ -157,6 +157,12 @@ main {
   color: white;
   background-color: #393C3D;
   font-size: 1.5rem;
+}
+
+.button a {
+  width: 100%;
+  text-align: center;
+  color: white;
 }
 
 /*Large Block 2 "it doesn't hurt to practice"*/
@@ -265,15 +271,19 @@ main {
 }
 
 .start-text {
-  height: 12rem;
+  height: 10rem;
   padding-top: 1rem;
   padding-left: 1rem;
   padding-bottom: 1.5rem;
   text-align: left;
 }
 
-.start-text, p {
+.start-text p {
   margin-top: 0.5rem;
+}
+
+.start-text h3 {
+  padding-bottom: 0.5rem;
 }
 
 /*Large Block 4 "Thesis Exhibit"*/
