@@ -65,13 +65,51 @@ h1, h2, h3, .colmar, a {
   font-weight: 400;
 }
 
-p, .copyright-text, .copyright-right li, .cp-text {
+p, .copyright-text,  #cp-text a  {
   font-family: "Montserrat", "Garamound", sans-serif;
   color: #5E5D5C;
 }
 
 .academy {
   color: #5E5D5C;
+}
+
+@media only screen and (max-width: 1190px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2.1rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 0.75rem;
+    line-height: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 1190px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 0.7rem;
+    line-height: 1.1rem;
+  }
 }
 
 /*Fixed Header Bar at top*/
@@ -161,7 +199,7 @@ main {
 }
 
 .button {
-  width: 85%;
+  width: 70%;
   padding-top: 0.50rem;
   padding-bottom: 0.50rem;
   display: flex;
@@ -179,21 +217,8 @@ main {
 }
 
 @media only screen and (max-width: 1190px) {
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  h2 {
-    font-size: 2.1rem;
-  }
-
-  h3 {
-    font-size: 1.3rem;
-  }
-
-  p {
-    font-size: 0.75rem;
-    line-height: 1.1rem;
+  .button {
+    width: 85%;
   }
 }
 
