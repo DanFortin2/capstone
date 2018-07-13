@@ -553,6 +553,12 @@ main {
     width: 100%;
     margin-top: 1rem;
   }
+  .thesis-block video {
+    margin-bottom: 0;
+  }
+  .thesis {
+    border: none;
+  }
 }
 
 
@@ -582,5 +588,14 @@ main {
 
     /*mobile sizing*/
 @media only screen and (max-width: 700px) {
-
+  .copyright {
+    height: auto;
+    background-color: white;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+  }
+  .copyright-text {
+    font-family: "Roboto", "Helvetica", sans-serif;
+    font-weight: 700;
+  }
 }
