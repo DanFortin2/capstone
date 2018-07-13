@@ -548,7 +548,11 @@ main {
 
     /*mobile sizing*/
 @media only screen and (max-width: 700px) {
-
+  .thesis-block {
+    padding: 0;
+    width: 100%;
+    margin-top: 1rem;
+  }
 }
 
 
