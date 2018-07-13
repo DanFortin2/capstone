@@ -143,7 +143,7 @@ nav a:hover {
   color: #0BF91C;
 }
 
-.mobile-bar {
+.mobile {
   display: none;
 }
 
@@ -168,6 +168,23 @@ nav a:hover {
 main {
   position: relative;
   top: 4rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    width: 100%;
+  }
+  .mobile-bar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .mobile-bar img {
+    height: 2.5rem;
+  }
 }
 
 /*Large Block 1 "learn something"*/
@@ -353,6 +370,7 @@ main {
   padding-left: 1rem;
   padding-bottom: 1.5rem;
   text-align: left;
+  padding: 1rem 0.2rem 1.5rem 1rem;
 }
 
 .start-text p {
@@ -361,6 +379,13 @@ main {
 
 .start-text h3 {
   padding-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 950px) {
+  .start {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 /*Large Block 4 "Thesis Exhibit"*/
