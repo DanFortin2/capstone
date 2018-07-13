@@ -54,7 +54,7 @@ p {
   line-height: 1.1rem;
 }
 
-h1, h2, h3, .colmar, a {
+h1, h2, h3, .colmar, a, .start-mobile-title  {
   font-family: "Roboto", "Helvetica", sans-serif;
   font-weight: 700;
   color: #393C3D;
@@ -65,7 +65,7 @@ h1, h2, h3, .colmar, a {
   font-weight: 400;
 }
 
-p, .copyright-text,  #cp-text a  {
+p, .copyright-text,  #cp-text a {
   font-family: "Montserrat", "Garamound", sans-serif;
   color: #5E5D5C;
 }
@@ -393,6 +393,10 @@ main {
   border-bottom: 1px solid #0BF91C;
 }
 
+.start-mobile {
+  display: none;
+}
+
 .start h2 {
   margin-bottom: 1rem;
 }
@@ -447,7 +451,29 @@ main {
 
     /*mobile sizing*/
 @media only screen and (max-width: 700px) {
+  .start {
+    background-color: white;
+    border-bottom: 1px solid #0BF91C;
+  }
 
+  .start-mobile {
+    display: block;
+  }
+
+  .start-mobile-title {
+    width: 100%;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    background-color: #DEDBD8;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .title-bottom-margin {
+    margin-bottom: 0.5rem;
+  }
 }
 
 /*Large Block 4 "Thesis Exhibit"*/
