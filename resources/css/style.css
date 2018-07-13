@@ -74,11 +74,6 @@ p, .copyright-text, .copyright-right li, .cp-text {
   color: #5E5D5C;
 }
 
-/*
-.gray {
-  background-color: #DEDBD8;
-}*/
-
 /*Fixed Header Bar at top*/
 
 header {
@@ -245,12 +240,12 @@ main {
 .image-block {
   display: flex;
   padding: 1rem 1rem;
+  transition:  background-color 750ms linear;
 }
 
 .image-block:hover {
   border-radius: 5px;
   background-color: #DEDBD8;
-  color: white;
 }
 
 .practice-pic {
@@ -368,7 +363,14 @@ main {
   display: flex;
   width: 100%;
   padding: 1rem 1rem;
+  transition:  background-color 750ms linear;
 }
+
+.exhibit-block:hover {
+  border-radius: 5px;
+  background-color: #DEDBD8;
+}
+
 
 .exhibit-image {
   width: 35%;
