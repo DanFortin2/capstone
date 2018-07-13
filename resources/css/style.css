@@ -71,8 +71,9 @@ p, .copyright-text,  #cp-text a  {
 }
 
 .academy {
-  color: #5E5D5C;
+  color: #0BF91C;
 }
+
 
 @media only screen and (max-width: 1190px) {
   h1 {
@@ -125,7 +126,7 @@ header {
   width: 100%;
   z-index: 1;
   background-color: white;
-  border-bottom: 1px solid #DEDBD8;
+  border-bottom: 1px solid #0BF91C;
 }
 
 nav li {
@@ -135,13 +136,11 @@ nav li {
 nav a {
   border-radius: 5px;
   padding: 0.1875rem 0.3125rem;
-  transition:  background-color 750ms linear;
+  transition:  color 750ms linear;
 }
 
 nav a:hover {
-  border-radius: 5px;
-  background-color: #393C3D;
-  color: white;
+  color: #0BF91C;
 }
 
 .mobile-bar {
@@ -178,6 +177,7 @@ main {
   display: flex;
   align-items: center;
   width: 100%;
+  border-bottom: 1px solid #0BF91C;
 }
 
 .learn-banner {
@@ -208,6 +208,12 @@ main {
   color: white;
   background-color: #393C3D;
   font-size: 1.5rem;
+  border-radius: 5px;
+  transition: background-color 750ms ease-in;
+}
+
+.button:hover {
+  background-color: #0BF91C;
 }
 
 .button a {
@@ -227,11 +233,12 @@ main {
 .practice {
   Display: flex;
   width: 100%;
+  border-bottom: 1px solid #0BF91C;
 }
 
 .practice-large-block {
   width: 60%;
-  border-right: 1px solid #DEDBD8;
+  border-right: 1px solid #0BF91C;
 }
 
 .practice-small-block {
@@ -265,12 +272,14 @@ main {
 .image-block {
   display: flex;
   padding: 1rem 1rem;
+  border-radius: 5px;
   transition:  background-color 750ms linear;
 }
 
 .image-block:hover {
-  border-radius: 5px;
   background-color: #DEDBD8;
+  border-radius: 5px;
+  border: 1px solid #0BF91C;
 }
 
 .practice-pic {
@@ -307,6 +316,7 @@ main {
   background-color: #DEDBD8;
   text-align: center;
   width: 100%;
+  border-bottom: 1px solid #0BF91C;
 }
 
 .start h2 {
@@ -328,7 +338,9 @@ main {
   width: 33.33%;
   background-color: white;
   margin: 1rem 1rem;
+  border-radius: 5px;
 }
+
 
 .start-block img {
   width: 100%;
@@ -354,6 +366,7 @@ main {
 
 .thesis {
   padding-top: 2rem;
+  border-bottom: 1px solid #0BF91C;
 }
 
 .thesis h2 {
@@ -388,12 +401,14 @@ main {
   display: flex;
   width: 100%;
   padding: 1rem 1rem;
+  border-radius: 5px;
   transition:  background-color 750ms linear;
 }
 
 .exhibit-block:hover {
   border-radius: 5px;
   background-color: #DEDBD8;
+  border: 1px solid #0BF91C;
 }
 
 
