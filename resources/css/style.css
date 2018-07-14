@@ -401,6 +401,10 @@ main {
   .practice-title {
     margin-top: 1rem;
   }
+
+  .hide-tablet {
+    display: none;
+  }
 }
 
     /*mobile sizing*/
@@ -427,7 +431,7 @@ main {
   }
 
   .practice-pic img {
-    width: 50%;
+    width: 70%;
     margin: auto;
   }
 
