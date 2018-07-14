@@ -54,7 +54,7 @@ p {
   line-height: 1.1rem;
 }
 
-h1, h2, h3, .colmar, a, .start-mobile-title  {
+h1, h2, h3, .colmar, .desktop-bar li a, .button a, .start-mobile-title  {
   font-family: "Roboto", "Helvetica", sans-serif;
   font-weight: 700;
   color: #393C3D;
@@ -418,8 +418,12 @@ main {
   margin: 1rem 1rem;
   border-radius: 5px;
   border: 1px solid #0BF91C;
+  transition: background-color 750ms ease-in;
 }
 
+.start-block:hover {
+  background-color: #EDE7E8;
+}
 
 .start-block img {
   width: 100%;
@@ -469,6 +473,12 @@ main {
     border: 1px solid black;
     display: flex;
     justify-content: flex-start;
+    transition: background-color 750ms ease-in;
+  }
+
+  .start-mobile-title:hover {
+    background-color: #0BF91C;
+    color: white;
   }
 
   .title-bottom-margin {
@@ -544,6 +554,10 @@ main {
 
 .exhibit-text p {
   margin-top: 1rem;
+}
+
+.exhibit-text a {
+  color: #5F99E8;
 }
 
     /*mobile sizing*/
