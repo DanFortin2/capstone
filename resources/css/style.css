@@ -65,7 +65,7 @@ h1, h2, h3, .colmar, .desktop-bar li a, .button a, .start-mobile-title  {
   font-weight: 400;
 }
 
-p, .copyright-text,  #cp-text a {
+p, .copyright-text,  .cp-text a {
   font-family: "Montserrat", "Garamound", sans-serif;
   color: #5E5D5C;
 }
@@ -400,10 +400,6 @@ main {
 
   .practice-title {
     margin-top: 1rem;
-  }
-
-  .hide-tablet {
-    display: none;
   }
 }
 
