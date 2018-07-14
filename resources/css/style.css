@@ -74,26 +74,6 @@ p, .copyright-text,  .cp-text a {
   color: #0BF91C;
 }
 
-
-@media only screen and (max-width: 1190px) {
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  h2 {
-    font-size: 2.1rem;
-  }
-
-  h3 {
-    font-size: 1.3rem;
-  }
-
-  p {
-    font-size: 0.75rem;
-    line-height: 1.1rem;
-  }
-}
-
 @media only screen and (max-width: 1190px) {
   h1 {
     font-size: 2.2rem;
@@ -112,6 +92,39 @@ p, .copyright-text,  .cp-text a {
     line-height: 1.1rem;
   }
 }
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+}
+
+@media only screen and (max-width: 550px) {
+  p {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  p {
+    font-size: 1rem;
+  }
+}
+
+
 
 /*Fixed Header Bar at top*/
 
@@ -195,7 +208,6 @@ main {
   display: flex;
   align-items: center;
   width: 100%;
-  border-bottom: 1px solid #0BF91C;
 }
 
 .learn-banner {
@@ -253,7 +265,6 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
-    border-bottom: 1px solid #0BF91C;
   }
 
   .learn-banner {
@@ -294,12 +305,11 @@ main {
 .practice {
   Display: flex;
   width: 100%;
-  border-bottom: 1px solid #0BF91C;
 }
 
 .practice-large-block {
   width: 60%;
-  border-right: 1px solid #0BF91C;
+  border-right: 1px solid #DEDBD8;
 }
 
 .practice-small-block {
@@ -404,7 +414,7 @@ main {
 }
 
     /*mobile sizing*/
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
   .practice-small-block {
     width: 100%;
     display: flex;
@@ -444,7 +454,6 @@ main {
   background-color: #DEDBD8;
   text-align: center;
   width: 100%;
-  border-bottom: 1px solid #0BF91C;
 }
 
 .start-mobile {
@@ -511,7 +520,6 @@ main {
 @media only screen and (max-width: 700px) {
   .start {
     background-color: white;
-    border-bottom: 1px solid #0BF91C;
   }
 
   .start-mobile {
@@ -522,9 +530,10 @@ main {
     width: 100%;
     padding-left: 1rem;
     padding-top: 1rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
     background-color: #DEDBD8;
-    border: 1px solid black;
+    border: 1px solid #0BF91C;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     transition: background-color 750ms ease-in;
@@ -544,7 +553,6 @@ main {
 
 .thesis {
   padding-top: 2rem;
-  border-bottom: 1px solid #0BF91C;
 }
 
 .thesis h2 {
