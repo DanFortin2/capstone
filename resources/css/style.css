@@ -661,6 +661,10 @@ main {
   margin-left: 1.5rem;
 }
 
+.cp-text:hover {
+  font-family: "Roboto", "Helvetica", sans-serif;
+  font-weight: 700;
+}
 
     /*mobile sizing*/
 @media only screen and (max-width: 700px) {
@@ -670,7 +674,7 @@ main {
     padding-top: 2.5rem;
     padding-bottom: 1rem;
   }
-  .copyright-text {
+  .copyright-text  {
     font-family: "Roboto", "Helvetica", sans-serif;
     font-weight: 700;
   }
